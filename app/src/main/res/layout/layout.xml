@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#0067F9"
+        android:letterSpacing="0.03"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#0067F9"
+        android:letterSpacing="0.03"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        />
+
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:layout_marginTop="15dp"
+        />
+    <RadioButton
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        />
+    <RadioButton
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Date of Birth"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+
+        />
+
+
+
+</LinearLayout>
